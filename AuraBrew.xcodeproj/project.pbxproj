@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20E323714B6B5699A25DDA5A /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B278388CD7D55BCC8CD6B39B /* CalculatorView.swift */; };
+		28F536BB829E5E1A85815993 /* JournalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DA22C043FB5B6383674DF2 /* JournalListView.swift */; };
+		2AB8BDE6470D583891942477 /* LogBrewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCDEC630DB15E10AF760907 /* LogBrewView.swift */; };
+		36646C7C17D65AE8A4239A71 /* AuraBrewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206DC156088F599CA554A556 /* AuraBrewApp.swift */; };
+		37EFF7D53B465289B7771169 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72AEB60743C5540E964CE385 /* Assets.xcassets */; };
+		407D879FE42D5833AA90C6FF /* BrewStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC1CBF90446514EA33C03C5 /* BrewStep.swift */; };
+		4E82656521F45D598B3A008C /* BrewSessionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D69F9805E0D56009C5475BD /* BrewSessionViewModel.swift */; };
+		6715882B90FF5C6CBB41BB8C /* ActiveBrewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A90C4A0114595F8521F18D /* ActiveBrewView.swift */; };
+		73FE9FEB30EA59C7BD525764 /* JournalEntryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746BBCB7362C5DD1B92A2C7E /* JournalEntryDetailView.swift */; };
+		797BB75F4B2A5275AF5DCCF8 /* BrewLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = E716BB7C405D5490B8E892B7 /* BrewLog.swift */; };
+		8061A50057F1570E83C4C03C /* RecipeLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEE9AF35EF5592C9967ED79 /* RecipeLibrary.swift */; };
+		90C282DD1CDC536E82568837 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE14A30D1B5DEDB0677342 /* Recipe.swift */; };
+		98BFC765AA065F1CBB8F157D /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3C0CD62A5B563A804D63D8 /* RecipeDetailView.swift */; };
+		AEE0007AB5B558C89062BC59 /* BrewMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65624B6139AB562890A0AB5C /* BrewMethod.swift */; };
+		B729399E3B0451FF93BB311B /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1569A54B7105B86AC947259 /* RecipeListView.swift */; };
+		C530E8F35BF35799A45905A3 /* BrewHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D4FE71E485137AC2F2E04 /* BrewHomeView.swift */; };
+		C768DF4AE5835604B7BCA0B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24B864FD3125AA4B531FB9F /* ContentView.swift */; };
+		DDC48DD0227351E7AB57B72D /* CalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BB6991AD845B1CBDC1435E /* CalculatorViewModel.swift */; };
+		AA11BB22CC33DD44EE55FF61 /* CaffeineCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA11BB22CC33DD44EE55FF60 /* CaffeineCalculator.swift */; };
+		CC33DD44EE55FF66AA11BB21 /* View+Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC33DD44EE55FF66AA11BB20 /* View+Card.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		206DC156088F599CA554A556 /* AuraBrewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuraBrewApp.swift; sourceTree = "<group>"; };
+		2D69F9805E0D56009C5475BD /* BrewSessionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrewSessionViewModel.swift; sourceTree = "<group>"; };
+		45BF2744140152DCAD0C0410 /* AuraBrew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuraBrew.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC1CBF90446514EA33C03C5 /* BrewStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrewStep.swift; sourceTree = "<group>"; };
+		5FBE14A30D1B5DEDB0677342 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		65624B6139AB562890A0AB5C /* BrewMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrewMethod.swift; sourceTree = "<group>"; };
+		6F3C0CD62A5B563A804D63D8 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		72AEB60743C5540E964CE385 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		746BBCB7362C5DD1B92A2C7E /* JournalEntryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryDetailView.swift; sourceTree = "<group>"; };
+		8FEE9AF35EF5592C9967ED79 /* RecipeLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeLibrary.swift; sourceTree = "<group>"; };
+		983D4FE71E485137AC2F2E04 /* BrewHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrewHomeView.swift; sourceTree = "<group>"; };
+		A24B864FD3125AA4B531FB9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A8A90C4A0114595F8521F18D /* ActiveBrewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveBrewView.swift; sourceTree = "<group>"; };
+		B1569A54B7105B86AC947259 /* RecipeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListView.swift; sourceTree = "<group>"; };
+		B278388CD7D55BCC8CD6B39B /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
+		DFCDEC630DB15E10AF760907 /* LogBrewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogBrewView.swift; sourceTree = "<group>"; };
+		E5BB6991AD845B1CBDC1435E /* CalculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewModel.swift; sourceTree = "<group>"; };
+		E716BB7C405D5490B8E892B7 /* BrewLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrewLog.swift; sourceTree = "<group>"; };
+		F7DA22C043FB5B6383674DF2 /* JournalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalListView.swift; sourceTree = "<group>"; };
+		FEE37CBB466D5E93A01C2A06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA11BB22CC33DD44EE55FF60 /* CaffeineCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaffeineCalculator.swift; sourceTree = "<group>"; };
+		CC33DD44EE55FF66AA11BB20 /* View+Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Card.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0A6FEAFBC03F5938AFAE2781 /* Brew */ = {
+			isa = PBXGroup;
+			children = (
+				983D4FE71E485137AC2F2E04 /* BrewHomeView.swift */,
+				B1569A54B7105B86AC947259 /* RecipeListView.swift */,
+				6F3C0CD62A5B563A804D63D8 /* RecipeDetailView.swift */,
+				A8A90C4A0114595F8521F18D /* ActiveBrewView.swift */,
+			);
+			path = Brew;
+			sourceTree = "<group>";
+		};
+		2A38C96972635AE0ACFF786F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7C3D7AA2818E5398B2E1E1C7 /* Domain */,
+				F9CF493EA0B65764B2216BAB /* Persistence */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2D2E6A3402C950B78E0D2671 = {
+			isa = PBXGroup;
+			children = (
+				9D6753DB39165CF994B0930C /* AuraBrew */,
+				92C43B9FC0E65F6DB2CAB38E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7C3D7AA2818E5398B2E1E1C7 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				65624B6139AB562890A0AB5C /* BrewMethod.swift */,
+				5EC1CBF90446514EA33C03C5 /* BrewStep.swift */,
+				5FBE14A30D1B5DEDB0677342 /* Recipe.swift */,
+				8FEE9AF35EF5592C9967ED79 /* RecipeLibrary.swift */,
+				AA11BB22CC33DD44EE55FF60 /* CaffeineCalculator.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		8E13B336FF7952DE9E7F408C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0A6FEAFBC03F5938AFAE2781 /* Brew */,
+				E0D02AD3BE075D9A9AA58AA7 /* Calculator */,
+				FF2D3361A0C0559DBA51030F /* Journal */,
+				CC33DD44EE55FF66AA11BB20 /* View+Card.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		92C43B9FC0E65F6DB2CAB38E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45BF2744140152DCAD0C0410 /* AuraBrew.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D6753DB39165CF994B0930C /* AuraBrew */ = {
+			isa = PBXGroup;
+			children = (
+				2A38C96972635AE0ACFF786F /* Models */,
+				F1103998EBAB5D478A593AC5 /* ViewModels */,
+				8E13B336FF7952DE9E7F408C /* Views */,
+				206DC156088F599CA554A556 /* AuraBrewApp.swift */,
+				A24B864FD3125AA4B531FB9F /* ContentView.swift */,
+				72AEB60743C5540E964CE385 /* Assets.xcassets */,
+				FEE37CBB466D5E93A01C2A06 /* Info.plist */,
+			);
+			path = AuraBrew;
+			sourceTree = "<group>";
+		};
+		E0D02AD3BE075D9A9AA58AA7 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				B278388CD7D55BCC8CD6B39B /* CalculatorView.swift */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		F1103998EBAB5D478A593AC5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2D69F9805E0D56009C5475BD /* BrewSessionViewModel.swift */,
+				E5BB6991AD845B1CBDC1435E /* CalculatorViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F9CF493EA0B65764B2216BAB /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				E716BB7C405D5490B8E892B7 /* BrewLog.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		FF2D3361A0C0559DBA51030F /* Journal */ = {
+			isa = PBXGroup;
+			children = (
+				F7DA22C043FB5B6383674DF2 /* JournalListView.swift */,
+				746BBCB7362C5DD1B92A2C7E /* JournalEntryDetailView.swift */,
+				DFCDEC630DB15E10AF760907 /* LogBrewView.swift */,
+			);
+			path = Journal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61CCE653B4C5566480A0A709 /* AuraBrew */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D7D0594D0F25F469BC0D4AD /* Build configuration list for PBXNativeTarget "AuraBrew" */;
+			buildPhases = (
+				46875295CB955BE8A98FF953 /* Sources */,
+				9EFB346BABF358748FD463B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AuraBrew;
+			productName = AuraBrew;
+			productReference = 45BF2744140152DCAD0C0410 /* AuraBrew.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D628296EA6BD57128CD1B32B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					61CCE653B4C5566480A0A709 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 902FDE30A6F75872A24FF7AD /* Build configuration list for PBXProject "AuraBrew" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D2E6A3402C950B78E0D2671;
+			productRefGroup = 92C43B9FC0E65F6DB2CAB38E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61CCE653B4C5566480A0A709 /* AuraBrew */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EFB346BABF358748FD463B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37EFF7D53B465289B7771169 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46875295CB955BE8A98FF953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36646C7C17D65AE8A4239A71 /* AuraBrewApp.swift in Sources */,
+				C768DF4AE5835604B7BCA0B2 /* ContentView.swift in Sources */,
+				AEE0007AB5B558C89062BC59 /* BrewMethod.swift in Sources */,
+				407D879FE42D5833AA90C6FF /* BrewStep.swift in Sources */,
+				90C282DD1CDC536E82568837 /* Recipe.swift in Sources */,
+				8061A50057F1570E83C4C03C /* RecipeLibrary.swift in Sources */,
+				797BB75F4B2A5275AF5DCCF8 /* BrewLog.swift in Sources */,
+				4E82656521F45D598B3A008C /* BrewSessionViewModel.swift in Sources */,
+				DDC48DD0227351E7AB57B72D /* CalculatorViewModel.swift in Sources */,
+				C530E8F35BF35799A45905A3 /* BrewHomeView.swift in Sources */,
+				B729399E3B0451FF93BB311B /* RecipeListView.swift in Sources */,
+				98BFC765AA065F1CBB8F157D /* RecipeDetailView.swift in Sources */,
+				6715882B90FF5C6CBB41BB8C /* ActiveBrewView.swift in Sources */,
+				20E323714B6B5699A25DDA5A /* CalculatorView.swift in Sources */,
+				28F536BB829E5E1A85815993 /* JournalListView.swift in Sources */,
+				73FE9FEB30EA59C7BD525764 /* JournalEntryDetailView.swift in Sources */,
+				2AB8BDE6470D583891942477 /* LogBrewView.swift in Sources */,
+				AA11BB22CC33DD44EE55FF61 /* CaffeineCalculator.swift in Sources */,
+				CC33DD44EE55FF66AA11BB21 /* View+Card.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9AAC70F312FF501A9F2773C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AuraBrew/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aurabrew.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRINGS_FILE_OUTPUT_ENCODING = "UTF-8";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C6712EA9C8E856D89875CA02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E384D5A752355D98A01F59A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECE7783E78645875BE3850E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AuraBrew/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aurabrew.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRINGS_FILE_OUTPUT_ENCODING = "UTF-8";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D7D0594D0F25F469BC0D4AD /* Build configuration list for PBXNativeTarget "AuraBrew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECE7783E78645875BE3850E0 /* Debug */,
+				9AAC70F312FF501A9F2773C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		902FDE30A6F75872A24FF7AD /* Build configuration list for PBXProject "AuraBrew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E384D5A752355D98A01F59A9 /* Debug */,
+				C6712EA9C8E856D89875CA02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D628296EA6BD57128CD1B32B /* Project object */;
+}

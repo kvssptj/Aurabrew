@@ -1,0 +1,31 @@
+# Xcode user-specific data
+xcuserdata/
+*.xcuserdatad/
+UserInterfaceState.xcuserstate
+
+# Xcode build artifacts
+build/
+DerivedData/
+*.xcarchive
+*.ipa
+
+# macOS
+.DS_Store
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# CocoaPods (if used)
+Pods/
+Podfile.lock
+
+# Fastlane (if used)
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
+
+# Code coverage
+*.gcno
+*.gcda
