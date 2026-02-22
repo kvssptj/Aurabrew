@@ -82,7 +82,9 @@ Caffeine extraction rates used per method: V60 12 mg/g, AeroPress 15 mg/g, Frenc
 
 ## Screenshots
 
-<!-- Screenshots coming soon -->
+| Home | Brew Guide | Active Brew | Ratio Calculator |
+|---|---|---|---|
+| ![Home](screenshots/home_screen.PNG) | ![Brew Guide](screenshots/brews.PNG) | ![Active Brew](screenshots/guided_brew.PNG) | ![Ratio Calculator](screenshots/ratio_calculator.PNG) |
 
 ---
 
